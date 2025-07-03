@@ -1,101 +1,26 @@
-# -LMS-with-Content-Recommendation
-# Library Management System 📚
+# Library Management System With Content Recommendation
 
-Its a Project related to Books management for a Libraries 📜.
+Hosted On : https://library-content-reccomendation.netlify.app (It may take some time for the images to load. I will fix it later, thanks for patience)
 
-FrontEnd is divided into two parts (ADMIN && CLIENT)
+For Admin Login : 
+   `email : admin@gmail.com`
+   `password : admin`
 
-ADMIN can do -  
-`1.manage books i.e. add/remove/update/delete books.`
+![image](https://github.com/user-attachments/assets/ca810595-539b-47c7-aa73-f1fb71227bb4)
 
-`2.Check user' details i.e. name/id/borrowed book/etc`
+![image](https://github.com/user-attachments/assets/a435b01a-3ee7-4699-9b6f-0a1010e7a539)
 
-`3.Confirm user's book request && Confirm book Return`
+![screencapture-localhost-5173-books-647975881de41547d0528e56-2025-01-15-19_06_28](https://github.com/user-attachments/assets/4c89e139-7797-4094-b38f-140f396bd1bf)
 
-`4.Manage Book Charges(Extra fee's for not returing book in time)`
+Admin : 
 
-CLIENT can do -  
-`1.Basic book surfing's and checking availablities`
+![image](https://github.com/user-attachments/assets/6d87cdcf-36fb-4297-837e-8be371ca444a)
 
-`2.Request for a book`
+![image](https://github.com/user-attachments/assets/7c151b1b-3d53-4e52-b180-4d4549b49393)
 
-`3.Viewing/CRUD Operations on Profile || Dashboard`
+![image](https://github.com/user-attachments/assets/a7fb66ed-b7c3-48ae-8015-e6a4a7a010e7)
 
-## Version Specifications :
-
-1. NodeJS : v18.16.0
-2. Express : v4.18.2
-3. ReactJS : v18.2.0
-4. Using MongoDB: v6.0.6
-   Using Mongosh: v2.0.2
-
-## Documentation
-
-You can find the Documentation inside /docs/ folder
-![](./docs/LMS.pdf)
-
-## How to run Project locally :
-
-1. Clone the project
-
-```bash
-  git clone git@github.com:MrAalu/LibraryManagementSystem_MERN.git
-```
-
-2. Goto Both 'Frontend' and 'Backend' folder
-
-```bash
-  cd frontend , cd backend
-```
-
-3. Install dependencies on Both Frontend & Backend
-
-```bash
-  npm install
-```
-
-**NOTE : In 'backend' make sure to create a '.env' file and copy paste the values of '.env.example' into newly created '.env' file**
-
-4. Start the Frontend and Backend
-
-**NOTE : If you have any issues or queries about Backend, refer to /backend/BackendInfo/ folder for details**
-```bash
-  npm run dev
-```
-
-5. Once you Run Backend(Server), database will be created automatically on Mongodb & You just have to Import the TABLE Data which is Stored in folder 'mongoDatabase'
-
-**For Backend :**
-
-`make sure your MondoDB server is running (you can check this via windows Services)`
-
-`open the mongoDB Compass (GUI for mongodb,download if u dont have) and from there you can import the data into respective collections` 
-
-```bash
-Import respective .JSON file into database Collection
-```
-
-## Login Credentials
-
-Starter Login Credentials : (Make sure to import database collections i.e. userdetails json file into the collections)
-
-1. ADMIN (user_type = "admin_user" ):
-
-```
- Email : admin@gmail.com , Password : admin
-```
-
-2. Normal User Can be created by SignUp Page (user_type = "normal_user" ):
-
-```
- Email : mightguy460@gmail.com , Password : Might@123
-```
+![image](https://github.com/user-attachments/assets/3da90eb1-8267-4e9b-847c-8ab9147fba38)
 
 
-## Tech Stack
 
-**Frontend :** React, Bootstrap
-
-**Backend :** Node, Express, MongoDB
-
-## ALL DONE just need to populate data and change images everything else Done & Dusted 
